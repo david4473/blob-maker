@@ -98,6 +98,7 @@ main{
     transform: translateX(-50%) translateY(-20%) scale(1);
 }
 
+
 .slider input{
     height: 3px;
     width: 100%;
@@ -111,6 +112,23 @@ main{
     background-color: white;
     width: 500px;
     height: 500px;
+}
+
+input::-moz-range-thumb{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(67, 187, 107);
+    border: none;
+    border-radius: 50%;
+    
+}
+
+input::-webkit-slider-thumb{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(67, 187, 107);
+    border: none;
+    border-radius: 50%;
 }
 
 

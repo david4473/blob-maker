@@ -80,9 +80,7 @@ slider.forEach((slider, index) =>{
     
 })
 
-
-slider.onblur = () =>{
-    pop[0].classList.remove('show');
-}
-
+const check = getComputedStyle(box);
+check.borderBottomRightRadius;
+console.log(check);
 
