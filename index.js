@@ -26,7 +26,7 @@ slider.forEach((slider, index) =>{
         slider.oninput = () => {
             let value = slider.value;
             pop[0].textContent = value ;
-            pop[0].style.left = (value / 1) + '%';
+            pop[0].style.left = (value - (-9)) + 'px';
             pop[0].classList.add('show');
             box.style.borderTopRightRadius = value + '%';
         }
@@ -40,7 +40,7 @@ slider.forEach((slider, index) =>{
         slider.oninput = () => {
             let value = slider.value;
             pop[1].textContent = value ;
-            pop[1].style.left = (value / 1) + '%';
+            pop[1].style.left = (value - (-9)) + 'px';
             pop[1].classList.add('show');
             box.style.borderTopLeftRadius = value + '%';
         }
@@ -53,7 +53,7 @@ slider.forEach((slider, index) =>{
         slider.oninput = () => {
             let value = slider.value;
             pop[2].textContent = value ;
-            pop[2].style.left = (value / 1) + '%';
+            pop[2].style.left = (value - (-9)) + 'px';
             pop[2].classList.add('show');
             box.style.borderBottomLeftRadius = value + '%';
         }
@@ -67,7 +67,7 @@ slider.forEach((slider, index) =>{
         slider.oninput = () => {
             let value = slider.value;
             pop[3].textContent = value ;
-            pop[3].style.left = (value / 1) + '%';
+            pop[3].style.left = (value - (-9)) + 'px';
             pop[3].classList.add('show');
             box.style.borderBottomRightRadius = value + '%';
         }
